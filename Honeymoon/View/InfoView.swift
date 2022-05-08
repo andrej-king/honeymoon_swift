@@ -16,11 +16,7 @@ struct InfoView: View {
                     .fontWeight(.black)
                     .modifier(TitleModifier())
                 
-                HStack {
-                    Text("Application").foregroundColor(Color.gray)
-                    Spacer()
-                    Text("Honeymoon")
-                } //: HSTACK
+                AppInfoView()
                 
                 Text("Credits")
                     .fontWeight(.black)
@@ -56,5 +52,38 @@ struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
         InfoView()
             .previewDevice("iPhone 13 Pro")
+    }
+}
+
+// MARK: - EXTRACTED SUBVIEW
+
+struct AppInfoView: View {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            RowAppInfoView(itemOne: "Application", itemTwo: "Honeymoon")
+            RowAppInfoView(itemOne: "Compatibility", itemTwo: "iPhone and iPad")
+            RowAppInfoView(itemOne: "Developer", itemTwo: "John Doe")
+            RowAppInfoView(itemOne: "Designer", itemTwo: "John Doe")
+            RowAppInfoView(itemOne: "Website", itemTwo: "example.com")
+            RowAppInfoView(itemOne: "Version", itemTwo: "1.0.0")
+        } //: VSTACK
+    }
+}
+
+struct RowAppInfoView: View {
+    // MARK: - PROPERTY
+    
+    var itemOne: String
+    var itemTwo: String
+    
+    var body: some View {
+        VStack {
+            HStack {
+                Text(itemOne).foregroundColor(Color.gray)
+                Spacer()
+                Text(itemTwo)
+            } //: HSTACK
+        } //: VSTACK
+        Divider()
     }
 }
