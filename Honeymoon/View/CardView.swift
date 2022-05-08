@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct CardView: View {
+struct CardView: View, Identifiable {
     // MARK: - PROPERTY
     
     let id = UUID()
