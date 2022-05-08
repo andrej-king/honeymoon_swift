@@ -24,6 +24,7 @@
 		550CCE9328281448007F9142 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE9228281448007F9142 /* InfoView.swift */; };
 		550CCE952828153B007F9142 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE942828153B007F9142 /* TitleModifier.swift */; };
 		550CCE98282817AD007F9142 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE97282817AD007F9142 /* ButtonModifier.swift */; };
+		55BBD845282841F300D477C9 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBD844282841F300D477C9 /* SymbolModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		550CCE9228281448007F9142 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		550CCE942828153B007F9142 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		550CCE97282817AD007F9142 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		55BBD844282841F300D477C9 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			children = (
 				550CCE942828153B007F9142 /* TitleModifier.swift */,
 				550CCE97282817AD007F9142 /* ButtonModifier.swift */,
+				55BBD844282841F300D477C9 /* SymbolModifier.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				550CCE9328281448007F9142 /* InfoView.swift in Sources */,
 				550CCE8A28280438007F9142 /* FooterView.swift in Sources */,
 				550CCE952828153B007F9142 /* TitleModifier.swift in Sources */,
+				55BBD845282841F300D477C9 /* SymbolModifier.swift in Sources */,
 				550CCE882827FEC2007F9142 /* HeaderView.swift in Sources */,
 				550CCE7E2827EC7E007F9142 /* HoneymoonModel.swift in Sources */,
 				550CCE98282817AD007F9142 /* ButtonModifier.swift in Sources */,
