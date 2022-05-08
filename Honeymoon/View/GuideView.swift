@@ -3,6 +3,9 @@ import SwiftUI
 struct GuideView: View {
     // MARK: - PROPERTY
     
+    // Show or hide view
+    @Environment(\.presentationMode) var presentationMode
+    
     // MARK: - BODY
     
     var body: some View {
@@ -49,7 +52,8 @@ struct GuideView: View {
                 
                 Button(action: {
                     // ACTION
-                    print("A button was tapped")
+                    // print("A button was tapped")
+                    self.presentationMode.wrappedValue.dismiss()
                 }) {
                     Text("Continue".uppercased())
                         .font(.headline)
