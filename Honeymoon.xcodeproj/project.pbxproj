@@ -20,6 +20,7 @@
 		550CCE8A28280438007F9142 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE8928280438007F9142 /* FooterView.swift */; };
 		550CCE8D282806CB007F9142 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE8C282806CB007F9142 /* HeaderComponent.swift */; };
 		550CCE8F282807B5007F9142 /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE8E282807B5007F9142 /* GuideComponent.swift */; };
+		550CCE9128280A5A007F9142 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE9028280A5A007F9142 /* GuideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		550CCE8928280438007F9142 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		550CCE8C282806CB007F9142 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		550CCE8E282807B5007F9142 /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		550CCE9028280A5A007F9142 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				550CCE6D2827C5B3007F9142 /* ContentView.swift */,
+				550CCE9028280A5A007F9142 /* GuideView.swift */,
 				550CCE8928280438007F9142 /* FooterView.swift */,
 				550CCE872827FEC2007F9142 /* HeaderView.swift */,
 				550CCE842827EDF0007F9142 /* CardView.swift */,
@@ -209,6 +212,7 @@
 				550CCE6C2827C5B3007F9142 /* HoneymoonApp.swift in Sources */,
 				550CCE852827EDF0007F9142 /* CardView.swift in Sources */,
 				550CCE8F282807B5007F9142 /* GuideComponent.swift in Sources */,
+				550CCE9128280A5A007F9142 /* GuideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
