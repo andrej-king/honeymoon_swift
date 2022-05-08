@@ -24,6 +24,7 @@
 		550CCE9328281448007F9142 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE9228281448007F9142 /* InfoView.swift */; };
 		550CCE952828153B007F9142 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE942828153B007F9142 /* TitleModifier.swift */; };
 		550CCE98282817AD007F9142 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE97282817AD007F9142 /* ButtonModifier.swift */; };
+		55AFA1142828605E00EBBD9C /* CartTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFA1132828605E00EBBD9C /* CartTransition.swift */; };
 		55BBD845282841F300D477C9 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBD844282841F300D477C9 /* SymbolModifier.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		550CCE9228281448007F9142 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		550CCE942828153B007F9142 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		550CCE97282817AD007F9142 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		55AFA1132828605E00EBBD9C /* CartTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTransition.swift; sourceTree = "<group>"; };
 		55BBD844282841F300D477C9 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 		550CCE6A2827C5B3007F9142 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				55AFA1122828603100EBBD9C /* Extension */,
 				550CCE8B282806A1007F9142 /* Component */,
 				550CCE862827F26E007F9142 /* Info.plist */,
 				550CCE7F2827EC95007F9142 /* Model */,
@@ -149,6 +152,14 @@
 				55BBD844282841F300D477C9 /* SymbolModifier.swift */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		55AFA1122828603100EBBD9C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				55AFA1132828605E00EBBD9C /* CartTransition.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55AFA1142828605E00EBBD9C /* CartTransition.swift in Sources */,
 				550CCE812827ED13007F9142 /* HoneymoonData.swift in Sources */,
 				550CCE9328281448007F9142 /* InfoView.swift in Sources */,
 				550CCE8A28280438007F9142 /* FooterView.swift in Sources */,
