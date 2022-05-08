@@ -40,7 +40,7 @@ struct CardView: View {
                             Capsule()
                                 .fill(Color.white)
                         )
-                }
+                } //: VSTACK
                     .frame(minWidth: 280)
                     .padding(.bottom, 50),
                 alignment: .bottom

@@ -6,7 +6,17 @@ struct ContentView: View {
     // MARK: - BODY
     
     var body: some View {
-        CardView(honeymoon: honeymoonData[0])
+        VStack {
+            HeaderView()
+            
+            Spacer()
+            
+            CardView(honeymoon: honeymoonData[2])
+            // FIXME: Add padding to the cards later on.
+                .padding()
+            
+            Spacer()
+        } //: VSTACK
     }
 }
 

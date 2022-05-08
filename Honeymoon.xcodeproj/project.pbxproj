@@ -16,6 +16,7 @@
 		550CCE7E2827EC7E007F9142 /* HoneymoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE7D2827EC7E007F9142 /* HoneymoonModel.swift */; };
 		550CCE812827ED13007F9142 /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE802827ED13007F9142 /* HoneymoonData.swift */; };
 		550CCE852827EDF0007F9142 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE842827EDF0007F9142 /* CardView.swift */; };
+		550CCE882827FEC2007F9142 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE872827FEC2007F9142 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		550CCE802827ED13007F9142 /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
 		550CCE842827EDF0007F9142 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		550CCE862827F26E007F9142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		550CCE872827FEC2007F9142 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				550CCE6D2827C5B3007F9142 /* ContentView.swift */,
+				550CCE872827FEC2007F9142 /* HeaderView.swift */,
 				550CCE842827EDF0007F9142 /* CardView.swift */,
 			);
 			path = View;
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				550CCE812827ED13007F9142 /* HoneymoonData.swift in Sources */,
+				550CCE882827FEC2007F9142 /* HeaderView.swift in Sources */,
 				550CCE7E2827EC7E007F9142 /* HoneymoonModel.swift in Sources */,
 				550CCE6E2827C5B3007F9142 /* ContentView.swift in Sources */,
 				550CCE6C2827C5B3007F9142 /* HoneymoonApp.swift in Sources */,
