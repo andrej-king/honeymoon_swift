@@ -16,6 +16,8 @@ struct ContentView: View {
                 .padding()
             
             Spacer()
+            
+            FooterView()
         } //: VSTACK
     }
 }
