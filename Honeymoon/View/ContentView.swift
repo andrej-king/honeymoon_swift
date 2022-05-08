@@ -6,8 +6,7 @@ struct ContentView: View {
     // MARK: - BODY
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        CardView(honeymoon: honeymoonData[0])
     }
 }
 
