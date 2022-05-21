@@ -24,6 +24,7 @@
 		550CCE9328281448007F9142 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE9228281448007F9142 /* InfoView.swift */; };
 		550CCE952828153B007F9142 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE942828153B007F9142 /* TitleModifier.swift */; };
 		550CCE98282817AD007F9142 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CCE97282817AD007F9142 /* ButtonModifier.swift */; };
+		558D1F4A28391626005228C0 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D1F4928391626005228C0 /* PlaySound.swift */; };
 		55AFA1142828605E00EBBD9C /* CartTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFA1132828605E00EBBD9C /* CartTransition.swift */; };
 		55BBD845282841F300D477C9 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBD844282841F300D477C9 /* SymbolModifier.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		550CCE9228281448007F9142 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		550CCE942828153B007F9142 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		550CCE97282817AD007F9142 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		558D1F4928391626005228C0 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		55AFA1132828605E00EBBD9C /* CartTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTransition.swift; sourceTree = "<group>"; };
 		55BBD844282841F300D477C9 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 		550CCE6A2827C5B3007F9142 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				558D1F482839160B005228C0 /* Helper */,
 				55AFA1122828603100EBBD9C /* Extension */,
 				550CCE8B282806A1007F9142 /* Component */,
 				550CCE862827F26E007F9142 /* Info.plist */,
@@ -152,6 +155,14 @@
 				55BBD844282841F300D477C9 /* SymbolModifier.swift */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		558D1F482839160B005228C0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				558D1F4928391626005228C0 /* PlaySound.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		55AFA1122828603100EBBD9C /* Extension */ = {
@@ -243,6 +254,7 @@
 				550CCE882827FEC2007F9142 /* HeaderView.swift in Sources */,
 				550CCE7E2827EC7E007F9142 /* HoneymoonModel.swift in Sources */,
 				550CCE98282817AD007F9142 /* ButtonModifier.swift in Sources */,
+				558D1F4A28391626005228C0 /* PlaySound.swift in Sources */,
 				550CCE8D282806CB007F9142 /* HeaderComponent.swift in Sources */,
 				550CCE6E2827C5B3007F9142 /* ContentView.swift in Sources */,
 				550CCE6C2827C5B3007F9142 /* HoneymoonApp.swift in Sources */,
@@ -374,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Honeymoon/Preview Content\"";
@@ -394,6 +407,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrej.dev.Honeymoon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -405,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Honeymoon/Preview Content\"";
@@ -425,6 +440,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrej.dev.Honeymoon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
